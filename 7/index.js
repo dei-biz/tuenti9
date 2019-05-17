@@ -1,3 +1,7 @@
+//
+//End of time. I was exploring this solution that looked fine. Next thing I had planned was using the restrictions to calculate
+//the characters within the padding
+//
 const fs = require("fs");
 const util = require("util");
 const data = fs.readFileSync("testInput.txt").toString().split("\n");
