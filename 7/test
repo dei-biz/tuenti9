@@ -1,0 +1,15 @@
+const util = require("util");
+
+const encoder = new util.TextEncoder();
+const calculateHash = (inputTest) => {
+    const hash = new Int8Array(Array.from(new Array(16), () => 0));
+    const textBytes = encoder.encode(inputTest);
+    textBytes.forEach((b, i) => {
+        hash[i % 16] = hash[i % 16] + b;
+    });
+    return hash;
+};
+
+console.log(calculateHash("0000S0e0000Xzzwue08B"));
+console.log(calculateHash("zQz0Z0DzzzzzzRzzzzze"));
+console.log(calculateHash("z_zz03W00"));
