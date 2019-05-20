@@ -14,6 +14,3 @@ Everything should work out of the box without any building. The input and output
 
 Lots of respect for everyone that solved some of the problems. They made me think a lot. I'll try to take some time apart for next year contest.
 
-## NOTE:
-
-Number 3 is missing, I left it at my laptop at @corunet. I'll upload it next monday. 
